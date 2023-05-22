@@ -20,15 +20,14 @@ Make sure you have the following software installed on your machine:
 ## Getting Started
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/rokasta12/typescript-nodejs-starter/
-   ```bash
+   ```
  2. Install deps
     ```bash
-   cd typescript-nodejs-starter
-   yarn
-   ```bash
+   cd typescript-nodejs-starter && yarn
+    ```
+  
  3.Set up the environment variables:
 
 Create a .env file in the root directory of the project.
@@ -38,12 +37,7 @@ Define the required environment variables in the .env file. You can refer to the
  For development with automatic reload (using nodemon):
    ```bash
    yarn start:dev
-   ```bash
-   For building and running the production-ready application:
-    ```bash
-   yarn start
-   ```bash
- 
+   ```
  ## Scripts
 
 The following scripts are available to run in the project:
